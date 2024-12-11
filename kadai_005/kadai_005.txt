@@ -1,0 +1,15 @@
+PS C:\Users\h.kishikawa> cd git_challenge
+PS C:\Users\h.kishikawa\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\h.kishikawa\git_challenge> git add hello_world.txt
+PS C:\Users\h.kishikawa\git_challenge> git commit -m "hello_world.txtを追加"      
+[main (root-commit) 42a4a18] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\h.kishikawa\git_challenge> echo "こんにちは、世界!" >> hello_world.txt
+PS C:\Users\h.kishikawa\git_challenge> git add hello_world.txt
+PS C:\Users\h.kishikawa\git_challenge> git commit -m "日本語訳を追記"
+[main 1e2e8e2] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\h.kishikawa\git_challenge> git log --oneline
+1e2e8e2 (HEAD -> main) 日本語訳を追記
+42a4a18 hello_world.txtを追加
